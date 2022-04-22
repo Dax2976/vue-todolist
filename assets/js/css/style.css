@@ -1,5 +1,18 @@
-.container{
-    align-content: center;
-    width: 100%;
-    align-self: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(249, 196, 131);
+    color: white;
+}
+.rounded_my{
+    border-radius: 10px;
+}
+
+input{
+    background-color: rgb(246, 232, 232);
+}
+
