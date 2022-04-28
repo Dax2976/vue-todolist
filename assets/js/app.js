@@ -38,13 +38,13 @@ const app = new Vue({
             this.newTask = ''
         },
         removeTask(index){
-            this.tasks.splice(index,1)
+            this.tasks.splice(index , 1)
         },
         changeS(index){
             if(this.tasks[index].done != true){
                 this.tasks[index].done = true
             }else{
-                this.task[index].done = false
+                this.tasks[index].done = false
             }
         }
     }
